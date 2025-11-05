@@ -58,9 +58,6 @@ class MailHandler
             $this->mailer->AltBody = strip_tags($body);
             $this->mailer->send();
 
-            // ✅ Send confirmation to user
-            $this->sendConfirmationToUser($data['email'], $data['name'] ?? '');
-
             return ['success' => true, 'message' => 'Thank you for subscribing!'];
         } catch (Exception $e) {
             return ['success' => false, 'message' => 'Mailer Error: ' . $this->mailer->ErrorInfo];
