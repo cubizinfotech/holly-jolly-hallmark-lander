@@ -11,19 +11,19 @@ $dbPass = '';
 // Email configuration gmail
 $emailHost = 'smtp.gmail.com';
 $emailPort = 587;
-$emailFrom = 'ahirnavin7567@gmail.com';
-$emailTo = 'ahirnavin7567@gmail.com';
-$emailUsername = 'ahirnavin7567@gmail.com';
-$emailPassword = 'crtbocevgncuioah';
+$emailFrom = '';
+$emailTo = '';
+$emailUsername = '';
+$emailPassword = '';
 
 /*
 // Email configuration hostinger
 $emailHost = 'smtp.hostinger.com';
 $emailPort = 587;
-$emailFrom = 'pam@hollyjollyhallmark.com';
-$emailTo = 'pam@hollyjollyhallmark.com';
-$emailUsername = 'pam@hollyjollyhallmark.com';
-$emailPassword = 'AnnieGirl1027!';
+$emailFrom = '';
+$emailTo = '';
+$emailUsername = '';
+$emailPassword = '';
 */
 
 // DSN and options
