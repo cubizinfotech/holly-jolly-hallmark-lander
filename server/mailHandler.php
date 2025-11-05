@@ -114,13 +114,13 @@ class MailHandler
             $confirmation->setFrom($this->emailFrom, 'Holly Jolly & Hallmark');
             $confirmation->addAddress($userEmail, $userName ?: 'Hallmark Fan');
             $confirmation->isHTML(true);
-            $confirmation->Subject = 'You’re officially part of our cozy crew!';
+            $confirmation->Subject = 'Your officially part of our cozy crew!';
 
             $confirmation->Body = "
             <html>
             <body style='font-family: Arial, sans-serif; background:#f8f8f8; padding:20px;'>
                 <div style='max-width:600px;margin:auto;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);padding:25px;'>
-                    <h2 style='color:#C0392B;text-align:center;'>You’re officially part of our cozy crew!</h2>
+                    <h2 style='color:#C0392B;text-align:center;'>Your officially part of our cozy crew!</h2>
                     <p>This is going to be so much fun!</p>
                     <p>We’re in the pre-production phase of bringing the <strong>Holly, Jolly & Hallmark</strong> podcast to life, 
                     and your ideas, requests, and suggestions mean the world to us.</p>

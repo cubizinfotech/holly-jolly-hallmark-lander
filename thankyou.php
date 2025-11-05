@@ -11,7 +11,7 @@
     <!-- Toastr CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
-<body>
+<body class="thankyou-page">
     <div class="container">
     <img src="public/img/santa-list.png" alt="You're on the List!"> <!-- Replace with your image -->
     <div class="content">

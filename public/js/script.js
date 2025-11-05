@@ -75,21 +75,23 @@ $(document).ready(function() {
             errors.email = 'Email is too long.';
         }
 
-        // if (!data.favorite_star) {
-        //     errors.favorite_star = 'Please tell us your favorite Hallmark star.';
-        // } else if (data.favorite_star.length > 255) {
-        //     errors.favorite_star = 'Value too long.';
-        // }
+        /*
+        if (!data.favorite_star) {
+            errors.favorite_star = 'Please tell us your favorite Hallmark star.';
+        } else if (data.favorite_star.length > 255) {
+            errors.favorite_star = 'Value too long.';
+        }
 
-        // if (!data.participate) {
-        //     errors.participate = 'Please choose whether you will participate.';
-        // } else if (!['yes', 'no'].includes(data.participate)) {
-        //     errors.participate = 'Invalid selection.';
-        // }
+        if (!data.participate) {
+            errors.participate = 'Please choose whether you will participate.';
+        } else if (!['yes', 'no'].includes(data.participate)) {
+            errors.participate = 'Invalid selection.';
+        }
 
-        // if (!Array.isArray(data.plotline) || data.plotline.length === 0) {
-        //     errors.plotline = 'Please select at least one plotline.';
-        // }
+        if (!Array.isArray(data.plotline) || data.plotline.length === 0) {
+            errors.plotline = 'Please select at least one plotline.';
+        }
+        */
 
         // message is optional, but limit length
         if (data.message && data.message.length > 2000) {
