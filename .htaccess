@@ -1,0 +1,9 @@
+# Redirect missing pages to 404.html
+ErrorDocument 404 /holly_jolly_hallmark_lander/404.html
+
+# Disable folder listing
+Options -Indexes
+
+# Allow .htaccess rewriting
+RewriteEngine On
+RewriteBase /holly_jolly_hallmark_lander/

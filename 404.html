@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffe6e6, #fff8f8);
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      color: #333;
+    }
+
+    .container {
+      background: white;
+      padding: 50px 70px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: #C0392B;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    p {
+      margin: 20px 0 30px;
+      color: #777;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    .home-btn {
+      background-color: #C0392B;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .home-btn:hover {
+      background-color: #a5281d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <h2>Oops! Page Not Found</h2>
+    <p>
+      The page you're looking for doesn’t exist or has been moved.<br>
+      Don’t worry — let’s get you back home.
+    </p>
+    <a href="/" class="home-btn">Go Back Home</a>
+  </div>
+</body>
+</html>
